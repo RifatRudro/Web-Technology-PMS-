@@ -1,0 +1,155 @@
+body{
+  margin:0;
+  padding: 0;
+  background: url(background2.jpg) no-repeat;
+  background-size: cover;
+
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: rgb(185, 109, 109);
+}
+
+.header h1 {
+  font-size: 30px;
+}
+
+.footer {
+
+  padding: 20px;
+  text-align: right;
+  background: rgb(211, 99, 99);
+  margin-top: 20px;
+}
+.footer h1 {
+  font-size: 12px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(119, 78, 78);
+}
+
+
+div.sticky {
+position: sticky;
+top: 0;
+padding: 0;
+border: 2px solid #8461d4;
+
+}
+
+
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(216, 81, 81);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(216, 81, 81);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type=date], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(216, 81, 81);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 200%;
+  background-color: #bd9494;
+  color: white;
+  padding: 14px 50px;
+  margin: 28px 50px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #a04545;
+}
+
+input[type=reset] {
+  width: 200%;
+  background-color: #bd9494;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset]:hover {
+  background-color: #a04545;
+}
+.topnav a{
+  float: left;
+  display: block;
+  color: #929191;
+  text-align: center;
+  padding: 10px 50px;
+
+}
+
+.topnav a:hover {
+  background-color: rgb(240, 118, 118);
+  color: rgb(173, 160, 160);
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 15px 2px;
+  box-sizing: border-box;
+  border: 4px solid #ccc;
+  border-radius: 5px;
+  background-color: rgb(219, 219, 219);
+  resize: none;  
+}
+
+
+
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
+}
+
+
+
+
+fieldset {
+background-color: #e9dfdf;
+  display: block;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  border: 20px groove (internal value);
+
+}
+
+legend {
+background-color: rgb(109, 72, 72);
+color: rgb(243, 243, 243);
+padding: 5px 10px;
+
+}

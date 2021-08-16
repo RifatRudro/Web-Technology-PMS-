@@ -1,0 +1,90 @@
+body{
+  margin:0;
+  padding: 0;
+  background: url(background.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+p{
+  width: 30%;
+  font-family: comic sans ms;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+
+}
+.p a:hover
+{
+  background-color: rgb(240, 118, 118);
+  color: rgb(173, 160, 160);
+}
+h4{
+  width: 20%;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: rgb(175, 168, 168);
+  }
+
+  .header h1 {
+    font-size: 30px;
+  }
+
+  .footer {
+
+    padding: 20px;
+    text-align: right;
+    background: rgb(173, 164, 164);
+    margin-top: 20px;
+  }
+  .footer h1 {
+    font-size: 12px;
+    text-align: center;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  
+div.sticky {
+  position: sticky;
+  top: 0;
+  padding: 0;
+  border: 2px solid #8461d4;
+
+}
+
+
+  .topnav a{
+    float: left;
+    display: block;
+    color: #929191;
+    text-align: center;
+    padding: 10px 50px;
+ 
+  }
+
+  .topnav a:hover {
+    background-color: rgb(240, 118, 118);
+    color: rgb(173, 160, 160);
+  }
+ 
+
+
+input[type=number]
+{
+  -moz-appearance: textfield;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}

@@ -1,0 +1,89 @@
+*{
+  background-color: rgb(255,255,255);
+}
+
+.admin{
+  text-align: center;
+  color:rgb(243, 6, 97);
+}
+
+input{
+width:150%;
+border: 1px solid rgb(252, 165, 93);
+border-radius: 0px;
+box-sizing: border-box;
+font-family: sans-serif;
+font-size: 20px;
+text-align: left;
+padding-right: 50px 20px;
+margin-left: -120px;
+}
+
+select{
+  width:30%;
+  margin: 8px 0;
+  border: 1px solid rgb(252, 165, 93);
+  border-radius: 50px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin-left: -120px;
+
+  }
+  p{
+    font-size: 23px;
+    margin-left: 600px;
+  }
+
+  
+  input[type=submit]{
+
+    width:100%;
+    padding: 12px 10px;
+    margin: 50px 0;
+    border: 3px solid white;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-left: 500px;
+    text-align: center;
+   
+    
+  }
+  
+  input[type=radio]{
+
+    width:100%;
+    padding: 12px 10px;
+    margin: 50px 0;
+    border: 3px solid white;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-left: 500px;
+    text-align: center;
+   
+    
+  }
+  input[type=reset]{
+
+    width:100%;
+    padding: 12px 10px;
+    margin: 50px 0;
+    border: 3px solid white;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-left: 500px;
+    margin-top: -200px;
+    text-align: center;
+    
+  
+  }
+  input[type=submit]:hover{
+
+    background-color: rgb(115, 230, 115);
+  }
+
+  
+  input[type=reset]:hover{
+    
+    background-color: rgb(115, 230, 115);
+  }
