@@ -1,0 +1,274 @@
+body{
+  margin:0;
+  padding: 0;
+  background: url(background2.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+
+
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: rgb(175, 168, 168);
+  }
+
+  .header h1 {
+    font-size: 30px;
+  }
+
+  .footer {
+
+    padding: 20px;
+    text-align: right;
+    background: rgb(173, 164, 164);
+    margin-top: 20px;
+  }
+  .footer h1 {
+    font-size: 12px;
+    text-align: center;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  
+div.sticky {
+  position: sticky;
+  top: 0;
+  padding: 0;
+  border: 2px solid #8461d4;
+
+}
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(216, 81, 81);
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  input[type=file], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(216, 81, 81);
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(216, 81, 81);
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(216, 81, 81);
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 200%;
+    background-color: #bd9494;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=radio] {
+    width: 50%;
+    background-color: #bd9494;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: -20px;
+    border-top:20px;
+  }
+  
+
+
+  input[type=submit]:hover {
+    background-color: #a04545;
+  }
+  
+  input[type=reset] {
+    width: 200%;
+    background-color: #bd9494;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=reset]:hover {
+    background-color: #a04545;
+  }
+  .topnav a{
+    float: left;
+    display: block;
+    color: #929191;
+    text-align: center;
+    padding: 10px 50px;
+ 
+  }
+
+  .topnav a:hover {
+    background-color: rgb(240, 118, 118);
+    color: rgb(173, 160, 160);
+  }
+ 
+  textarea {
+    width: 80%;
+    height: 200px;
+    padding: 15px 22px;
+    box-sizing: border-box;
+    border: 4px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(219, 219, 219);
+    resize: none;  
+}
+
+
+input[type=number]
+{
+  -moz-appearance: textfield;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding-top: 20px;
+}
+
+.class1{
+    
+
+  text-align: center;
+  color: white;
+  font-family: cursive;
+  font-size: 10px;
+  text-align: center;
+  
+}
+.class1-img
+{
+  border-radius: 30%;
+  width: 195px;
+  height: 220px; 
+  margin-top: -20px;
+  padding-left:-1000px;
+}
+.mydiv 
+{
+    text-align: left;
+    margin-top: -140px;
+    padding:0px;
+    font-family: cursive;
+}
+
+
+
+
+
+#panel{
+  width:50%;
+  text-align: center;
+  background-color: #5997df; 
+  border: solid 1px #c3c3c3;
+  padding: 50px;
+  display: none;
+}
+
+#panel2{
+  padding: 5px;
+  text-align: center;
+  background-color: #6f82f0; 
+  border: solid 1px #c3c3c3;
+  padding: 50px;
+  display: none;
+}
+#panel3{
+  padding: 5px;
+  text-align: center;
+  background-color: #cfcfcf; 
+  border: solid 1px #c3c3c3;
+  padding: 50px;
+  display: none;
+}
+#panel4{
+  padding: 5px;
+  text-align: center;
+  background-color: #cfcfcf; 
+  border: solid 1px #c3c3c3;
+  padding: 50px;
+  display: none;
+}
+
+
+#flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #814c4c; 
+  border: solid 1px #c3c3c3;
+}
+#flip2 {
+  padding: 5px;
+  text-align: center;
+  background-color: #ec6969; 
+  border: solid 1px #c3c3c3;
+}
+
+#flip3 {
+  padding: 5px;
+  text-align: center;
+  background-color: #f7f7f7; 
+  border: solid 1px #c3c3c3;
+}
+#flip4 {
+  padding: 5px;
+  text-align: center;
+  background-color: #f7f7f7; 
+  border: solid 1px #c3c3c3;
+}
+
+
+
+fieldset {
+  width:50%;
+  background-color: #5974ee;
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+}
+
+legend {
+  background-color: rgb(47, 230, 175);
+  color: white;
+  padding: 5px 10px;
+
+}
+
+
